@@ -1,0 +1,32 @@
+.team-info img{
+    width: 300px;
+
+}
+.team-info{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+    padding:10px;
+    color:white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.team-info p{
+    font-size:18px;
+}
+.teamInfo-area{
+    padding: 1% 10% 1% 10%;
+    background-color: rgb(6, 170, 121);
+    color: white;
+}
+.social-icon {
+    font-size:35px;
+    text-align: center;
+}
+.social-icon a{
+    margin-right:15px;
+    cursor:pointer;
+    color: white;
+}

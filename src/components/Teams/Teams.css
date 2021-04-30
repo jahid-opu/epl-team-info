@@ -1,0 +1,27 @@
+.team-card img{
+height: 150px;
+width: 150px;
+}
+.team-card{
+    background-color: white;
+    width:300px;
+    margin: 20px;
+    padding:20px;
+    text-align: center;
+    height:300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+.teams-area{
+    background-color: rgb(6, 170, 121);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.btn {
+    background-color:peru;
+    color:white;
+    padding: 10px 20px;
+    border:none;
+    cursor: pointer;
+}
