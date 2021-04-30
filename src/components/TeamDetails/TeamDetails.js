@@ -10,7 +10,6 @@ import { faFacebook, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-i
 
 
 const TeamDetails = (props) => {
-    console.log(props.team);
     const { intFormedYear, strAlternate, strCountry, strSport, strGender, strTeamBadge, strDescriptionEN } = props.team;
     let image;
     if (strGender === "Male") {
