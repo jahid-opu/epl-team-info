@@ -19,7 +19,7 @@ const Home = () => {
 
         <div className="teams-area">
             {
-                teams.map(team => <Teams team={team}></Teams>)
+                teams.map(team => <Teams key={team.idTeam} team={team}></Teams>)
             }
         </div>
         </div>

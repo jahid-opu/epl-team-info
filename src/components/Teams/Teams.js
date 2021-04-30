@@ -1,7 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faCoffee,faArrowRight} from '@fortawesome/free-solid-svg-icons'
-
-import React, { useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faCoffee,faArrowRight} from '@fortawesome/free-solid-svg-icons';
 import { useHistory } from 'react-router';
 import './Teams.css'
 
